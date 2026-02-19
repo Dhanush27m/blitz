@@ -91,6 +91,12 @@ def parse_csv(file_bytes: bytes) -> List[Transaction]:
     return transactions
 
 
+
+@app.get("/")
+async def root():
+    return {"message": "Money Muling Detection Engine is running"}
+
+    
 @app.post(
     "/analyze",
     response_model=FullAnalysisResponse,
