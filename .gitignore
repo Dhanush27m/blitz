@@ -1,0 +1,96 @@
+############################
+# OS junk
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Environment variables (NEVER PUSH THESE)
+############################
+.env
+.env.*
+*.env
+
+############################
+# Node / Frontend
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+coverage/
+
+############################
+# Python / Flask
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Flask specific
+instance/
+.webassets-cache/
+
+############################
+# Jupyter / ML junk
+############################
+.ipynb_checkpoints/
+
+############################
+# Logs & runtime files
+############################
+*.log
+logs/
+tmp/
+*.sqlite3
+*.db
+
+############################
+# IDE / Editor junk
+############################
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+############################
+# Mac/Linux temp files
+############################
+*.swp
+*.swo
+
+############################
+# Docker (if you use later)
+############################
+.dockerignore
+
+############################
+# Testing / coverage
+############################
+htmlcov/
+.coverage
+.pytest_cache/
+
+############################
+# Misc
+############################
+*.bak
+*.tmp
