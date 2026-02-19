@@ -4,7 +4,7 @@ A comprehensive graph-based fraud detection system that identifies money muling 
 
 ## 🔗 Live Demo
 
-**Live Demo URL:** _[To be submitted]_
+**Live Demo URL:**   https://blitzrift.vercel.app/
 
 ## Tech Stack
 
@@ -360,10 +360,7 @@ curl http://localhost:8000/health
 
 10. **Timestamp Format:** Only supports `YYYY-MM-DD HH:MM:SS` timestamp format. Other formats will cause parsing errors.
 
-## 📝 License
-
-This project is part of the Money Muling Detection Challenge.
-
----
-
-**Note:** This system is designed for educational and demonstration purposes. For production use in financial systems, additional security, compliance, and validation measures should be implemented.
+## team members
+Chandru Manjunath
+Darshan B M
+Dhanush M
